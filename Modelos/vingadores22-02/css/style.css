@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+    color: rgb(241, 236, 229);
+    background-color: rgb(12, 61, 110);
+    width: 80%;
+    margin: 15px auto;
+    margin-bottom: 4px;
+    padding: 0.2em;
+    font-size: 1.5em;
+}
+
+img{
+    width: 100%;
+}
+
+ .miniaturas,.principal,.legenda{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+
+
+}
+
+.imagem{
+    width: 16.66%;
+    float: left;
+}
+
+.legenda{
+   color: antiquewhite;
+   background-color: rgb(28, 94, 160);
+   padding: 0.2em;
+}
+
+body{
+background-color: rgb(204, 199, 194) ;
+font-family: tahoma;
+}
+
+

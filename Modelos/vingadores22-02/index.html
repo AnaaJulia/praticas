@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria Vingadores</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <h1> <output id="titulo">Título da 1ª Imagem</output>  </h1>
+    
+    <!-- ******************************** Miniaturas**************************************************************************-->
+    <div class="miniaturas">
+        <div class="imagem">
+            <img src="img/capitao.jpg" onmouseover="trocar(this.src,'CAPITÃO AMERICA', 'TEM ESCUDO BLINDADO')">
+        </div>
+        <div class="imagem">
+            <img src="img/gaviao.jpg" onmouseover="trocar(this.src , 'GAVIÃO ARQUEIRO' , 'TEM HABILIDADE COM ARCO E FLEXAS')">
+        </div>
+        <div class="imagem">
+            <img src="img/homem_ferro.jpg" onmouseover="trocar(this.src,'HOMEM DE FERRO', 'VOA COM A ARMADURA')">
+        </div>
+        <div class="imagem">
+            <img src="img/hulk.jpg" onmouseover="trocar(this.src, 'HULK' , 'SUPER FORTE')">
+        </div>
+        <div class="imagem">
+            <img src="img/thor.jpg" onmouseover="trocar(this.src,'THOR', 'MARTELO MAGICO E CONTROLA O RAIO')">
+        </div>
+        <div class="imagem">
+            <img src="img/viuva.jpg" onmouseover="trocar(this.src , 'VIUVA NEGRA' ,'LUTADORA ')">
+        </div>        
+    </div>
+
+    <!-- ************************* Imagem Principal**************************************************************************** -->
+    <div class="principal">
+        <img src="img/capitao.jpg" id="imagem_principal">
+    </div>
+    
+    <!-- ********************* Lengenda das imagens****************************************************************************** -->
+    <div class="legenda">
+       
+        <output id="legenda"></output>
+    </div>
+    
+</body>
+<script src="js/script.js"></script>
+</html>
