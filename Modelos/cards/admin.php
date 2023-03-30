@@ -1,8 +1,7 @@
 <?php
 include "topo.php";
 ?>
-
-               
+         
     <div class="container text-center">
     <div class="row align-items-start">
     <table class="table">
@@ -34,6 +33,3 @@ include "topo.php";
     </table>
     </div>
 </div>
-<?php
-include "rodape.php";
-?>
